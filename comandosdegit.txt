@@ -1,0 +1,5 @@
+1 git add .
+2 git commit -m "solo mi nombre"
+3 git push
+nota: comando git clone se utiliza una unica vez por una reposicion por cada maquina
+comando status se ejecuta las veces que una quiera y las veces que uno quiera
