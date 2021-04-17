@@ -1,9 +1,9 @@
 <?php
 	echo "<h1>4- pedir tres números informar el mayor de los tres  </h1>";
 	
-	$numero1 = = rand(1, 49);
-	$numero2 = = rand(1, 25);
-	$numero3 = = rand(1, 75);
+	$numero1 = rand(1, 49);
+	$numero2 = rand(1, 25);
+	$numero3 = rand(1, 75);
 	
 	if($numero1 > $numero2 && $numero1 > $numero3)
 		{
