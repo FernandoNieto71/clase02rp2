@@ -1,7 +1,7 @@
 <?php
 	echo "<h1>3-al ingresar un mes del año informar si es invierno, verano, otoño o primavera. </h1>";
 	
-	$mes = 3;
+	$mes = = rand(1, 12);
 	switch ($mes) {
 		case '1':
 			echo "Mes de enero. \n Es verano";
