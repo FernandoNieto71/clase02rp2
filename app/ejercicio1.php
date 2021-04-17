@@ -1,8 +1,25 @@
 <?php
+	echo "<h1>1-obtener la edad informar si es mayor adolescente o menor de edad  </h1>";
+	
+	$edad = rand(1, 25);
 
-$edad = 15;
-if ($edad < 18) 
-	echo "es menor de 18";
-else 
-	echo "es mayor de 18";
+	
+	if ($edad < 13) 
+	{
+		echo $edad." es menor";
+	} 
+	else
+	{
+		if ($edad > 17 ) 
+		{
+			echo $edad." es mayor";
+		} 
+		else 
+		{
+			echo $edad." es adolescente";
+			
+		}
+	} 
+
+
 ?>
