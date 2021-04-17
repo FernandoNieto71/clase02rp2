@@ -4,6 +4,7 @@
 	$numero1 = rand(1, 49);
 	$numero2 = rand(1, 25);
 	$numero3 = rand(1, 75);
+
 	
 	if($numero1 > $numero2 && $numero1 > $numero3)
 		{
@@ -17,7 +18,13 @@
 			}
 		else
 			{
-				echo "El numero ", $numero3, " es el mayor de ", $numero2, " y de ", $numero1;	
+				if($numero3 == $numero2 || $numero3 == $numero1)
+				{
+					$numero3 = $numero3 + 1;
+				}
+				echo "El numero ", $numero3, " es el mayor de ", $numero2, " y de ", $numero1;
+				
+					
 
 			}
 		}
