@@ -1,5 +1,5 @@
 <?php
-	echo "<h3>Obtener la edad informar si es mayor adolescente o menor de edad con switch</h3>"
+	echo "<h3>Obtener la edad informar si es mayor adolescente o menor de edad con switch</h3>";
 
 $edad = rand(1, 21);
 
