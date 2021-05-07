@@ -13,10 +13,10 @@ function dividir($numero1, $numero2){
 function retornarSiEsCero($numeroingresado){
 	//si es cero retorna true sino true
 	if($numeroingresado==0){
-		return 1;
+		return true;
 	}
 	else{
-		return 0;
+		return false;
 	}
 }
 
