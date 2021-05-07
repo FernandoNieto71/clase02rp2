@@ -35,7 +35,7 @@ function calcular($numero1, $operador, $numero2){
 			break;
 		case '$':
 			echo "Operacion no permitida";
-
+			break;
 	}
 }
 
