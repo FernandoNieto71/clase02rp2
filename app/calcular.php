@@ -32,7 +32,9 @@ function calcular($numero1, $operador, $numero2){
 			} else {
 				echo "no se puede dividir por cero";
 			}
-			
+			break;
+		case '$':
+			echo "Operacion no permitida";
 
 	}
 }
