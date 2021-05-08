@@ -6,8 +6,13 @@ cuarta transformar (una temp, a que la quiere llevar)
 */
 //include_once "calcular.php";
 $temperatura = rand(-20, 125);
-//$operacion = "celsius";
-$operacion	= "fahrenheit";
+$select = rand(1, 200) % 2;
+
+if($select){
+	$operacion = "celsius";
+}else{
+	$operacion	= "fahrenheit";
+}
 
 mostrartemperatura($temperatura, $operacion);
 
